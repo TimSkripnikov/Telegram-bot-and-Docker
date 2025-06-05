@@ -15,16 +15,18 @@ git clone https://github.com/TimSkripnikov/Telegram-bot-and-Docker.git
 
 ## Used Libraries
 
-- ![pyTelegramBotAPI](https://pytba.readthedocs.io/en/latest/_images/logo.png) [**pyTelegramBotAPI**](https://github.com/eternnoir/pyTelegramBotAPI) — a wrapper for the Telegram Bot API.
-- ![SQLAlchemy](https://seeklogo.com/images/S/sqlalchemy-logo-488283/vector-logo.png) [**SQLAlchemy**](https://www.sqlalchemy.org/) — the Python SQL toolkit and ORM.
-- ![python-dotenv](https://raw.githubusercontent.com/theskumar/python-dotenv/master/docs/_static/logo.png) [**python-dotenv**](https://github.com/theskumar/python-dotenv) — reads key-value pairs from `.env` files and sets them as environment variables.
-- ![psycopg2](https://www.psycopg.org/images/psycopg-logo.png) [**psycopg2-binary**](https://www.psycopg.org/) — a PostgreSQL adapter for Python.
-- ![Selenium](https://seeklogo.com/images/S/selenium-logo-456125/vector-logo.png) [**selenium**](https://www.selenium.dev/) — a browser automation framework.
-- ![urllib3](https://raw.githubusercontent.com/urllib3/urllib3/main/docs/_static/urllib3-logo.png) [**urllib3**](https://github.com/urllib3/urllib3) — a powerful, user-friendly HTTP client for Python.
+### Python Libraries
+
+![pyTelegramBotAPI](https://img.shields.io/badge/-pyTelegramBotAPI-26A5E4?style=flat\&logo=telegram\&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-FFC300?style=flat\&logo=alembic\&logoColor=black)
+![python-dotenv](https://img.shields.io/badge/-python--dotenv-4B8BBE?style=flat\&logo=python\&logoColor=white)
+![psycopg2](https://img.shields.io/badge/-psycopg2-2C5E8C?style=flat\&logo=postgresql\&logoColor=white)
+![selenium](https://img.shields.io/badge/-Selenium-43B02A?style=flat\&logo=selenium\&logoColor=white)
+![urllib3](https://img.shields.io/badge/-urllib3-006400?style=flat\&logo=python\&logoColor=white)
+
 
 
 ## Usage
-
 
 
 ### 1. Copy the .env files from the templates before running:
