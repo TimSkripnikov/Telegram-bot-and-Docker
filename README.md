@@ -13,9 +13,7 @@ The entire application is containerized using **Docker**, and the services are c
 git clone https://github.com/TimSkripnikov/Telegram-bot-and-Docker.git
 ```
 
-## Used Libraries
-
-### Python Libraries
+## Used Libraries and Frameworks
 
 ![pyTelegramBotAPI](https://img.shields.io/badge/-pyTelegramBotAPI-26A5E4?style=flat\&logo=telegram\&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-FFC300?style=flat\&logo=alembic\&logoColor=black)
@@ -24,7 +22,8 @@ git clone https://github.com/TimSkripnikov/Telegram-bot-and-Docker.git
 ![selenium](https://img.shields.io/badge/-Selenium-43B02A?style=flat\&logo=selenium\&logoColor=white)
 ![urllib3](https://img.shields.io/badge/-urllib3-006400?style=flat\&logo=python\&logoColor=white)
 
-
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)
 
 ## Usage
 
@@ -131,5 +130,11 @@ The bot provides an inline keyboard with two main options:
   ```
   💱 Доллар → 89.12 ₽
   ```
+
+
+## Get in Touch
+
+- Email: [art.skripnikov@gmail.com](mailto:art.skripnikov@gmail.com)
+- Telegram: [@Tim912](https://t.me/Tim912)
 
 
