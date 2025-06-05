@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  bot:
+    build: 
+      context: ./bot
+    env_file:
+      - ./bot/.env
+    depends_on:
+      - data-base-tg-bot
+    networks:
+      - tg-bot-net
+
+  parser:
+    build:
+      context: ./parser
+    env_file:
+      - ./parser/.env
+    depends_on:
+      - data-base-tg-bot
+    networks:
+      - tg-bot-net
+
+  data-base-tg-bot:
+    image: postgres:15
+    restart: always
+    env_file:
+      - ./.env
+    volumes:
+      - tg-data:/var/lib/postgresql/data
+    networks:
+      - tg-bot-net
+
+volumes:
+  tg-data:
+
+networks:
+  tg-bot-net:
+    
+
+
+
